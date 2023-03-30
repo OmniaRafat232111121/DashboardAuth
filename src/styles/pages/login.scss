@@ -1,0 +1,17 @@
+.login-page{
+  height: 100vh;
+  .image{
+    background:linear-gradient(45deg, rgba(2, 43, 72, 0.9), rgba(19, 104, 165, 0.85)), url('../../../public/login-bg.jpg') ;
+    background-size: cover;
+    background-position: center;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+  .login-page{
+    .image{
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,85 @@
+.nav-bar{
+  background-color: #FFF;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  box-shadow: 0 1px 5px rgba(0,0,0,.1);
+  .toggle-sidebar{
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  .search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    border: 1px solid $blue;
+    height: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+    input{
+      background: #FFF;
+      outline: none;
+      border: none;
+      height: 100%;
+      width: 350px;
+      padding: 0 20px;
+    }
+    .icon{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      background-color: $blue;
+      color: #FFF;
+      width: 40px;
+      height: 40px;
+      &:hover{
+        background-color: darken($blue, 5%);
+      }
+    }
+  }
+
+  .user-settings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    position: relative;
+   
+.menu{
+  background-color: rgb(214, 219, 223);
+  position: absolute;
+  bottom: -70px;
+  right: 0;
+  width: 150px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgab(0,0,0,0.1);
+  
+}
+button{
+  color:#fff;
+  background-color: #4a6dff;
+  padding:10px;
+  border-radius: 5px;
+  border:none;
+}
+  }
+}
+
+
+@media screen and (max-width:768px){
+  .nav-bar{
+    .toggle-sidebar{
+      display: block;
+    }
+    .search{
+      display: none;
+    }
+  }
+}

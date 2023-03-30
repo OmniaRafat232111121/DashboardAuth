@@ -1,0 +1,28 @@
+.analytics_page {
+
+  .user-table-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    img {
+      width: 32px;
+      height: 32px;
+      border-radius: 4px;
+    }
+  }
+
+  .gender {
+    padding: 0 16px;
+    border-radius: 4px;
+    width: fit-content;
+  }
+
+  .male {
+    background-color: skyblue;
+  }
+
+  .female {
+    background-color: pink;
+  }
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@import './variables';
+@import './layout';
+@import './pages/index';
+@import './components/index';
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Cairo', sans-serif;
+  background-color: #FAFAFB
+;
+}
+
+
+// colors classes
+.bg-blue{
+  background-color: $blue-c;
+}
+.bg-yellow{
+  background-color: $yellow-c;
+}
+.bg-orange{
+  background-color: $orange-c;
+}
+.bg-purple{
+  background-color: $purple-c;
+}
+.bg-light-blue{
+  background-color: $lightblue-c;
+}
+.bg-light-yellow{
+  background-color: $lightyellow-c;
+}
+.bg-light-orange{
+  background-color: $lightorange-c;
+}
+.bg-light-purple{
+  background-color: $lightpurple-c;
+}
+.text-blue{
+  color: $blue-c;
+}
+.text-yellow{
+  color: $yellow-c;
+}
+.text-orange{
+  color: $orange-c;
+}
+.text-purple{
+  color: $purple-c;
+}

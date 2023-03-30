@@ -1,0 +1,18 @@
+.page_header_with_icon{
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  button{
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: $blue;
+    color: white;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+  }
+}
