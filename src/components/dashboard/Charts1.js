@@ -38,7 +38,9 @@ const Charts1 = () => {
   };
   return (
     <div id="chart">
-      <ReactApexChart options={chart.options} series={chart.series} type="area" height={350} />
+      <ReactApexChart 
+      options={chart.options} series={chart.series}
+       type="area" height={350} />
     </div>
   )
 }

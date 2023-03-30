@@ -1,14 +1,11 @@
 import React, { useEffect } from 'react'
 import { Card, Col, Row } from 'react-bootstrap'
-import Charts2 from 'components/dashboard/Chart2'
-import Charts1 from 'components/dashboard/Charts1'
 import InfoCard from 'components/dashboard/InfoCard'
 import DataTableDT from 'components/DataTableDT'
 import { dashboardData, ProductsColumnsDB } from 'static'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchProducts } from 'redux/lib/products'
 import Donut from 'components/dashboard/Dount'
-import Chart from 'components/dashboard/Chart3'
 import Chartt from 'components/dashboard/Chart3'
 const Invoice = () => {
   const dispatch = useDispatch()
@@ -20,7 +17,7 @@ const Invoice = () => {
   console.log(products);
   const {cards} = dashboardData
   return (
-    <div>
+    <div className='Invoice_page'>
     <h2 className='fw-bold mb-3 text-dark'>Invoice</h2>
       <Row>
         {
@@ -32,19 +29,20 @@ const Invoice = () => {
             )
           })
         }
-        <Col md='7' sm="12" className='mb-3'>
+        <Col md='4'  className='mb-3'>
           <Card className='border-0 shadow-sm'>
           <Card.Body>
           <h4>Reports</h4>
-              <Donut/>
+              <Donut className="dount-invoice"/>
             </Card.Body>
           </Card>
         </Col> 
-        <Col md='5' sm="12"  className='mb-3'>
+
+        <Col md='5'  className='mb-3 '>
           <Card className='border-0 shadow-sm'>
           <Card.Body>
               <h4>Analytics</h4>
-              <Chartt/>
+              <Chartt className="chart-invoice" />
             </Card.Body>
           </Card>
         </Col>
