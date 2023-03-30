@@ -8,7 +8,7 @@ About Dashboard authentication with user using formik and validation with Yup an
 
 - React js
 - Redux-toolKit
-- APexChart js
+
 
 ## Pacakages
 
@@ -18,3 +18,4 @@ About Dashboard authentication with user using formik and validation with Yup an
 - react-icons
 - react- countUp
 - js- cookie
+- APexChart js
