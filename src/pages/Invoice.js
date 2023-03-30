@@ -32,15 +32,15 @@ const Invoice = () => {
             )
           })
         }
-        <Col md='6' className='mb-3'>
+        <Col md='7' sm="12" className='mb-3'>
           <Card className='border-0 shadow-sm'>
           <Card.Body>
           <h4>Reports</h4>
               <Donut/>
             </Card.Body>
           </Card>
-        </Col>
-        <Col md='6' className='mb-3'>
+        </Col> 
+        <Col md='5' sm="12"  className='mb-3'>
           <Card className='border-0 shadow-sm'>
           <Card.Body>
               <h4>Analytics</h4>
